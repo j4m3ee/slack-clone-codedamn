@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/7c6c1cd1ac.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>codedamn Project</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <div class="icons">
+                    <a href="#" onclick="init()"><i class="far fa-clock"></i></a>
+                </div>
+                <form action="." class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="search" name="search" id="search" placeholder="Search tutorial-daltonic"
+                        class="search-bar-input" />
+                </form>
+                <div class="icons">
+                    <a href="#"><i class="far fa-question-circle"></i></a>
+                </div>
+
+            </nav>
+        </header>
+        <div class="main">
+
+            <article class="sidebar-2">
+                <section class="sidebar-user">
+                    <div class="sidebar-user-info">
+                        <h4>Cometchat(e)</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <p class="sidebar-user-info-additional">
+                        <i class="fas fa-circle"></i>Vikrant
+                    </p>
+                    <span class="user-edit-icon"><i class="fas fa-edit"></i></span>
+                </section>
+                <section class="unread">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="far fa-comment-dots"></i>Threads</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-at"></i>Mentions & reactions</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-arrow-down"></i>More</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="channels">
+                    <h4 class="channels-header">
+                        <i class="fas fa-sort-down"></i> Channels
+                    </h4>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fas fa-plus"></i>Add Channel</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="direct-messages">
+                    <h4 class="direct-messages-header">
+                        <i class="fas fa-sort-down"></i> Direct Messages
+                    </h4>
+                    <ul>
+                    </ul>
+                </section>
+                <section></section>
+
+                <section class="logout">
+                    <h5 class="logout-btn">
+                        Logout
+                    </h5>
+                    <ul>
+                    </ul>
+                </section>
+                <section></section>
+            </article>
+            
+                <div class="desktop" id="page01">
+                    <div class="createBox">
+                        <img src="/assets/images/logo.png" alt="Slack Logo" width="100" height="100"
+                            style="vertical-align:middle">
+                        <h1>Welcome to Slack</h1>
+                        <p>Slack brings all your team communication into one place, Make it all instantly searchable and
+                            available
+                            wherever
+                            you go.</p>
+                        <p>Our aim is to make your working life simepler, more pleasant ant more productive.</p>
+                        <button class="desktopBtn" onclick="navigateToCreateCh()">Create Channel</button>
+                    </div>
+                </div>
+
+                <div class="desktop2" id="page02">
+                    <div class="createBox">
+                        <img src="/assets/images/logo.png" alt="Slack Logo" width="100" height="100"
+                            style="vertical-align:middle">
+                        <h1>Add New Channel</h1>
+                        <input type="text" placeholder="Channel Name"><br>
+                        <select>
+                            <option value="Select privacy">Select privacy</option>
+                        </select>
+                        <button class="desktop2Btn " onclick="navigateToCh()">Create Channel</button>
+                    </div>
+                </div>
+
+                <div class="channelBox" id="page03">
+                    <div class="topbar">
+                        <div class="leftItem">
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-hashtag"></i></a>
+                                <a href="#"><i class="far fa-star"></i></a>
+                            </div>
+
+                        </div>
+                        <div class="rightItem">
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-user-plus"></i></a>
+                                <a href="#"><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detailbox">
+                    </div>
+                    <div class="downbar">
+                        <input type="text" placeholder="Message undefined"><br>
+                    </div>
+                </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
